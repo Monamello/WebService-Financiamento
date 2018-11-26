@@ -39,7 +39,6 @@ class Consulta(models.Model):
             obj = {}
             obj['data'] = self.data_inicial + relativedelta(months=+(i + 1))
             obj['valor'] = self.valor_parcela
-            import ipdb; ipdb.set_trace()
             lista.append(obj)
         return lista
 
