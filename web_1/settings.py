@@ -26,7 +26,7 @@ SECRET_KEY = '+f2&@!a^aa^k06n0e$zfhn%3e(50t2n%2lgt4gje^iqf6g_tz='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['api-consulta-financiamento.herokuapp.com', 'localhost']
 
 
 # Application definition
